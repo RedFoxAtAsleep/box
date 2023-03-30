@@ -557,7 +557,7 @@ spec:
             runAsUser: 2016
             runAsGroup: 2016
           volumeMounts:
-            - mountPath: /var/lib/rook
+            - mountPath: /data/lib/rook
               name: rook-config
             - mountPath: /etc/ceph
               name: default-config-dir
