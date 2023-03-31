@@ -12,5 +12,5 @@
     "exec-opts":[
         "native.cgroupdriver=systemd"
     ],
-    "data-root":"/data/lib/docker"
+    "data-root":"/var/lib/docker"
 }
